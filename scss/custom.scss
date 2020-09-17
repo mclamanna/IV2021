@@ -115,3 +115,20 @@ h6 {
     top: 0;
     left: 0;
 }
+
+.barcode-input input {
+    font-size:  .8rem;
+    font-style: italic;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #ffffff;
+    background-color: transparent;
+    width: 200px;
+    outline: none!important;
+}
+
+.btn-link{
+    margin-left: -1.8rem;
+    color: #ffffff;
+}
