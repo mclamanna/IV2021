@@ -34,6 +34,10 @@ h6 {
     border-bottom: .2rem solid #0D47A1;
 }
 
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:  #0D47A1;   
+}
+  
 .iv-logo {
     width: 50px;
 }
@@ -85,6 +89,7 @@ h6 {
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #ffffff;
     text-decoration: underline;
@@ -141,4 +146,16 @@ h6 {
 
 .menu{
     font-size: 1.2rem;
+}
+
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
 }
