@@ -6,22 +6,6 @@ html {
     line-height: 1.5;
 }
 
-[aria-expanded="false"] .menu__icon--open {
-    display: block;
-}
-  
-  [aria-expanded="false"] .menu__icon--close {
-    display: none;
-}
-  
-  [aria-expanded="true"] .menu__icon--open {
-    display: none;
-}
-  
-  [aria-expanded="true"] .menu__icon--close {
-    display: block;
-}
-
 .navbar-dark .navbar-toggler {
     color: #ffffff;
     outline-color: #092B52;
@@ -40,8 +24,14 @@ h6 {
     font-weight: 700; 
 }
 
-.bg-dark {
+.bg-first {
     background-color: #092B52!important;
+}
+
+.bg-second {
+    background-color: #092B52!important;
+    border-top: .2rem solid #0D47A1;
+    border-bottom: .2rem solid #0D47A1;
 }
 
 .iv-logo {
@@ -131,4 +121,24 @@ h6 {
 .btn-link{
     margin-left: -1.8rem;
     color: #ffffff;
+    text-decoration: none;
+}
+
+.btn:focus,.btn:active,.btn-link:hover {
+    outline: none !important;
+    box-shadow: none;
+    color: #ffffff;
+ }
+
+ .form-rounded {
+    border-radius: 2rem;
+}
+
+.MenuText {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.menu{
+    font-size: 1.2rem;
 }
