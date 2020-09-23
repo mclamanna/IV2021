@@ -39,6 +39,19 @@ h6 {
   color: #ffffff;
 }
 
+.navbartwo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: autoright !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .iv-logo {
   width: 50px;
 }
