@@ -20,7 +20,7 @@
   
   <!-- Navbar 1 -->
   <nav class="navbar navbar-expand navbar-dark bg-first">
-    <a href="#"><img class="iv-logo" alt="United States Postal Service" src="images/IV_Logo.svg"></a>
+    <a href="#" style="background-color: transparent !important;"><img class="iv-logo" alt="United States Postal Service" src="images/IV_Logo.svg"></a>
     <span id="projectBranding">
       <div class="projectTitle d-none d-lg-block">Informed Visibility</div>
       <div class="projectSlogan d-none d-lg-block">The single source for all your mail visibility needs.</div>
@@ -30,26 +30,26 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav ml-auto">
 
-        <div class="barcode-input">
+        <div class="barcode-input d-none d-lg-block">
           <form class="form-inline">
             <input class="form-inline barcode" type="search" placeholder="Enter Barcode" aria-label="Search">
             <button type="submit" class="btn btn-link"><i class="fas fa-barcode"></i></button>
           </form>
         </div>
         <li class="nav-item">
-          <a class="nav-link" href="#" title="Analytics University"><i class="fas fa-graduation-cap fa-lg"></i>
+          <a class="nav-link" style="background-color: transparent !important;" href="#" title="Analytics University"><i class="fas fa-graduation-cap fa-lg"></i>
             <!--<span class="navbarText d-none d-lg-block">Analytics University</span>--></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" title="BlueTube®"><i class="fab fa-youtube fa-lg"></i>
+          <a class="nav-link" style="background-color: transparent !important;" href="#" title="BlueTube®"><i class="fab fa-youtube fa-lg"></i>
             <!--<span class="navbarText d-none d-lg-block">BlueTube</span>--></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" title="Contact Us"><i class="fas fa-comment fa-lg"></i>
+          <a class="nav-link" style="background-color: transparent !important;" href="#" title="Contact Us"><i class="fas fa-comment fa-lg"></i>
             <!--<span class="navbarText d-none d-lg-block">Contact Us</span>--></a>
         </li>
         <li class="nav-item dropdown ml-5">
-          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+          <a class="nav-link" style="background-color: transparent !important;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false"><i class="fa fa-user fa-lg"></i></a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Text 1</a>
@@ -63,7 +63,7 @@
     </div>
   </nav>
   <!-- Navbar 2 -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-second">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-second py-0">
     <button class="navbar-toggler btn btn-link" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="MenuText">MENU</span>
     </button>
@@ -219,6 +219,12 @@
         </div>
       </div>
       </form>
+      <div class="barcode-input d-lg-none d-xl-none">
+        <form class="form-inline">
+          <input class="form-inline barcode" type="search" placeholder="Enter Barcode" aria-label="Search">
+          <button type="submit" class="btn btn-link"><i class="fas fa-barcode"></i></button>
+        </form>
+      </div>
     </div>
   </nav>
   
