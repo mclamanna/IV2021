@@ -39,6 +39,11 @@ h6 {
   color: #ffffff;
 }
 
+.navbar-dark .nav-item > .nav-link.active {
+  color: white;
+  background-color: #0D47A1;
+}
+
 .navbartwo {
   -webkit-box-flex: 1;
       -ms-flex: 1;
