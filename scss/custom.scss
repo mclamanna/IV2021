@@ -132,8 +132,13 @@ justify-content: space-evenly;
     border-bottom: 1px solid white;
     color: #ffffff;
     background-color: transparent;
-    width: 200px;
+    width: 250px;
     outline: none!important;
+}
+
+.barcode-input, .d-lg-none, .d-xl-none {
+    padding: 1rem .5rem; 
+
 }
 
 .btn-link{
