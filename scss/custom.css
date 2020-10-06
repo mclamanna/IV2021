@@ -143,7 +143,7 @@ h6 {
   outline: none !important;
 }
 
-.barcode-input, .d-lg-none, .d-xl-none {
+.barcode-input.d-lg-none.d-xl-none {
   padding: 1rem .5rem;
 }
 
