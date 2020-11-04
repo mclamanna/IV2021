@@ -14,12 +14,12 @@ html {
 
 h5 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 1.125rem;
 }
 
 h6 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 700; 
 }
@@ -153,7 +153,7 @@ justify-content: space-evenly;
     color: #ffffff;
  }
 
- .form-rounded {
+.form-rounded {
     border-radius: 2rem;
 }
 
@@ -176,4 +176,33 @@ justify-content: space-evenly;
 	left: 0;
 	right: 0;
 	padding: 15px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-custom {
+    display: inline;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+a.dropdown-custom:hover{
+    color: #0D47A1;
+    background-color: #ffffff;
+    text-decoration: underline;
+}
+
+.reorg {
+   background-color: #30d074;
 }
